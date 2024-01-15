@@ -1,0 +1,32 @@
+@import "mixins/mixins";
+@import "progress";
+@import "common/var";
+
+@include b(dcUpload) {
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  @include e(input) {
+    display: none;
+  }
+
+  @include e(tip) {
+    font-size: 12px;
+    color: $--color-text-regular;
+    margin-top: 7px;
+  }
+  
+  .uploadicon {
+    font-size: 67px;
+    color: #c0c4cc;
+    margin: 40px 0 16px;
+    line-height: 50px;
+  }
+  .clear-btn {
+    position: absolute;
+    right:10px;
+    top:10px;
+    font-size:16px;
+    color:$--color-primary
+  }
+}

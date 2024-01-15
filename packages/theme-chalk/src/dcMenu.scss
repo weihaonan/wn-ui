@@ -1,0 +1,67 @@
+@import "mixins/mixins";
+@import "mixins/utils";
+@import 'mixins/button';
+@import "common/var";
+
+@include b(dcMenu) {
+  &.el-menu--horizontal {
+    display:flex;
+  }
+  .el-menu-item {
+    &:hover{
+      color: $--color-primary !important;
+      background-color: #fff !important;
+    }
+    &.is-active {
+      border-bottom:2px solid $--color-primary
+    }
+  }
+  @include m(popup) {
+    z-index: 100;
+    margin-top:0px !important;
+    border: none;
+    padding: 0px;
+    border-radius: $--border-radius-small;
+    box-shadow: $--box-shadow-light;
+
+    &-bottom-start {
+      margin-top: 5px;
+    }
+    &-right-start {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .el-dcMenu-ul {
+      max-height: 400px;
+      width: 190px;
+      padding:0px;
+      li {
+        line-height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 15px 5px 25px;
+        width: 190px;
+        box-sizing: border-box;
+        cursor: pointer;
+        &.active {
+          background-color: $--color-primary-light-9 !important;
+          color: $--color-primary !important;
+        }
+        &:hover,
+        &:focus {
+          background-color: $--color-primary-light-9 !important;
+          color: $--color-primary !important;
+        }
+      }
+    }
+    .divider {
+      position: absolute;
+      height: 100%;
+      display: inline-block;
+      width: 1px;
+      background: #efefef;
+      left: 190px;
+    }
+  }
+}

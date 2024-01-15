@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import "common/var";
+@import "mixins/button";
+@import "mixins/mixins";
+@import "mixins/utils";
+
+.el-extable-poper.el-popper {
+  padding:0px;
+
+  .operationDiv {
+    height:300px;
+    .operationBtn {
+      display: flex;
+      justify-content: center;
+      height: 40px;
+      border-bottom: 1px solid #fafafa;
+      .normalBtn {
+        width: 50%;
+        text-align: center;
+        height: 40px;
+        margin:0px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .primaryBtn {
+        background-color: #fef3e6;
+        color: $--color-primary;
+        //#f9cd99
+        .icon-eye {
+          font-size: 16px;
+          margin-right: 6px;
+          margin-top: 1px;
+        }
+      }
+      .unPrimaryBtn {
+        background-color: #fafafa;
+        .icon-eye-close {
+          font-size: 16px;
+          margin-right: 6px;
+          margin-top: 1px;
+        }
+        &:hover {
+          color:$--color-primary;
+        }
+      }
+      .resetBtn {
+        width: 50%;
+        text-align: center;
+        line-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover {
+          color:$--color-primary;
+        }
+        .el-icon-refresh-left {
+          font-size: 16px;
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+  
+  .dropdownItems {
+    height: calc(100% - 40px);
+
+    .checkItem.el-dropdown-menu__item {
+      color: $--color-primary;
+      padding-left: 25px;
+    }
+    .unCheckItem.el-dropdown-menu__item {
+      color: #000;
+      padding-left: 25px;
+    }
+  }
+}
+.expand-cols {
+  display:flex;
+  justify-content: space-between;
+  .sort-icon {
+    font-size:12px;
+    color: $--color-primary;
+  }
+}
+.expand-cols-poper {
+  .column-oper {
+    ul,li {
+      list-style: none;
+      padding:0px
+    }
+    ul {
+      margin:0px
+    }
+    .dis-click {
+      pointer-events: none;
+      color:#ddd
+    }
+    .expand-li {
+      margin: 8px 4px;
+      font-size: 14px;
+      cursor: pointer;
+      &:hover {
+        color: $--color-primary;
+      }
+      .iconfont {
+        font-size: 14px;
+        margin-right: 5px;
+      }
+      .filt-area {
+        background: rgb(243, 243, 243);
+        margin: 4px 1px;
+        padding: 10px 5px;
+      }
+      hr {
+        height: 1px;
+        border: 0;
+        border-bottom: 1px solid #e5e0e0;
+        margin: 11px 0px;
+      }
+    }
+    .table-form {
+      margin: 10px 1px;
+      padding: 15px 15px 1px 5px;
+      background: rgb(243, 243, 243);
+      .el-form-item {
+        .el-form-item__label {
+          line-height: 16px;
+        }
+      }
+      .el-select {
+        width: 100%;
+      }
+      .table-time {
+        .el-select {
+          width: 88px !important;
+        }
+      }
+    }
+  }
+  .oper-btn {
+    position: absolute;
+    right: 3px;
+    line-height: 18px;
+    font-size: 14px;
+    i:hover{
+      color:$--color-primary;
+    }
+  }
+}

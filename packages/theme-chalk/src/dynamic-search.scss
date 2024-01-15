@@ -1,0 +1,47 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(dynamic-search) {
+  .el-scrollbar {
+    .el-scrollbar__wrap {
+      max-height: 300px; // 最大高度
+      overflow-x: hidden; // 隐藏横向滚动栏
+    }
+  }
+  // padding:12px 10px 12px 10px;
+  .retrieval-header,
+  .retrieval-body {
+    .requireLabel:before {
+      content: "*";
+      color: red;
+      margin-right: 4px;
+    }
+    color: #b1aeae;
+    margin-bottom: 15px;
+    .retrieval-name {
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+  }
+  .more-require {
+    margin-left: 5px;
+    .el-dropdown {
+      color: var(--main-color);
+    }
+  }
+  .number-cycle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #555;
+    background-color: #f7f7f7;
+  }
+  .add-more-btn{
+    width: 86%; border: 1px dashed #f08300; color: #f08300; margin-left: 30px
+  }
+}

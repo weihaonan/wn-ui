@@ -1,0 +1,78 @@
+@import "mixins/mixins";
+@import "common/var";
+@import "mixins/utils";
+
+@include b(dcCheckbox) {
+    margin-right: 30px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    .el-checkbox {
+      @include when(tag) {
+        .el-checkbox__input {
+          display:none
+        }
+        .el-checkbox__label {
+          font-size:12px;
+        }
+        &.is-checked {
+          background-color:$--color-primary;
+         
+          .el-checkbox__label {
+            color: #fff;
+          }
+        }
+        height: 24px;
+        padding: 0 8px 0 0;
+        line-height: 22px;
+      }
+      &.is-bordered {
+        min-width: 150px;
+        margin-right:10px;
+        margin-bottom:5px;
+        height: 48px;
+        box-sizing: border-box;
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        padding: 15px;
+        &.is-checked {
+          border-color: $--color-primary;
+        }
+        & + .el-checkbox.is-bordered {
+          margin-left: 0px;
+        }
+        .el-checkbox__inner {
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+        }
+        .el-checkbox__inner::after {
+          top: 2px;
+          left: 5px;
+        }
+        .redP {
+          position: absolute;
+          right: -16px;
+          top: 12px;
+        }
+        .redTran {
+          position: relative;
+          width: 0;
+          height: 0;
+          border-width: 15px 15px 0;
+          border-style: solid;
+          border-color: #f08300 transparent transparent;
+        }
+        .redTran::after {
+          content: '';
+          position: absolute;
+          top: -15px;
+          left: 0px;
+          border-width: 0 15px 15px 0;
+          border-style: solid;
+          border-color: #fff;
+        }
+      }
+    }
+    
+}

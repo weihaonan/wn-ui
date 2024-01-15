@@ -1,0 +1,45 @@
+@import "mixins/mixins";
+@import "./common/var.scss";
+
+@include b(tooltip) {
+
+  &.overflow-tooltip {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* line-height: 1; */
+    vertical-align: middle;
+  }
+
+  @include e(poper) {
+    max-width:600px;
+    word-break: keep-all;
+    .popper__arrow {
+      position:absolute
+    }
+  }
+  @include m(overflow) {
+    max-height:300px;
+    overflow-y:auto;
+  }
+    .popper__arrow,
+    .popper__arrow::after {
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+    }
+
+    .popper__arrow {
+      border-width: $--tooltip-arrow-size;
+    }
+
+    .popper__arrow::after {
+      content: " ";
+      border-width: 5px;
+    }
+}

@@ -1,0 +1,1067 @@
+@import "common/var";
+@font-face {
+  font-family: "dbsec-icons"; /* Project id 4249729 */
+  src: url('#{$--font-path}/iconfont.woff?t=1694576962340') format('woff'),
+       url('#{$--font-path}/iconfont.ttf?t=1694576962340') format('truetype');
+}
+
+[class^="dbsec-icon-"], [class*=" dbsec-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dbsec-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dbsec-icon-diyiming:before {
+  content: "\e611";
+}
+
+.dbsec-icon-gongju-:before {
+  content: "\e6ea";
+}
+
+.dbsec-icon-IPdizhi:before {
+  content: "\e6ec";
+}
+
+.dbsec-icon-shujukuzhanghu1:before {
+  content: "\e82e";
+}
+
+.dbsec-icon-rizhixiazai:before {
+  content: "\e6e9";
+}
+
+.dbsec-icon-liuliangzhuabao:before {
+  content: "\e6e8";
+}
+
+.dbsec-icon-liantongxingceshi:before {
+  content: "\e6e7";
+}
+
+.dbsec-icon-dianpudaohang:before {
+  content: "\e6e6";
+}
+
+.dbsec-icon-leida:before {
+  content: "\e6e4";
+}
+
+.dbsec-icon-colum-height:before {
+  content: "\eafe";
+}
+
+.dbsec-icon-gaojichaxun:before {
+  content: "\e6e5";
+}
+
+.dbsec-icon-Macdizhi:before {
+  content: "\e6e1";
+}
+
+.dbsec-icon-zhuji:before {
+  content: "\e6e2";
+}
+
+.dbsec-icon-shujukuzhanghu:before {
+  content: "\e6e3";
+}
+
+.dbsec-icon-kehuduanIP:before {
+  content: "\e6e0";
+}
+
+.dbsec-icon-kehuduangongju:before {
+  content: "\e6df";
+}
+
+.dbsec-icon-caozuoxitong:before {
+  content: "\e6de";
+}
+
+.dbsec-icon-xitongxinxiweihu:before {
+  content: "\e77d";
+}
+
+.dbsec-icon-gerenxinxi:before {
+  content: "\e6dd";
+}
+
+.dbsec-icon-liebiao:before {
+  content: "\e6dc";
+}
+
+.dbsec-icon-zhibiao:before {
+  content: "\e6d91";
+}
+
+.dbsec-icon-jiqun:before {
+  content: "\e6d8";
+}
+
+.dbsec-icon-xuanzhong:before {
+  content: "\e6d7";
+}
+
+.dbsec-icon-fangwenliang:before {
+  content: "\e703";
+}
+
+.dbsec-icon-dancibao:before {
+  content: "\ea26";
+}
+
+.dbsec-icon-xiajiantou_huaban:before {
+  content: "\e6d5";
+}
+
+.dbsec-icon-shangjiantou_huaban:before {
+  content: "\e6d6";
+}
+
+.dbsec-icon-zhongqi:before {
+  content: "\e6d4";
+}
+
+.dbsec-icon-icon_PINma:before {
+  content: "\e6d3";
+}
+
+.dbsec-icon-yingyong:before {
+  content: "\e6d2";
+}
+
+.dbsec-icon-yingyongtongji:before {
+  content: "\ed4e";
+}
+
+.dbsec-icon-jiedian:before {
+  content: "\e6d1";
+}
+
+.dbsec-icon-kaifangapi:before {
+  content: "\e6d0";
+}
+
+.dbsec-icon-collaboration-system-full:before {
+  content: "\e85b";
+}
+
+.dbsec-icon-edu-custom-asc:before {
+  content: "\e6ce";
+}
+
+.dbsec-icon-shaixuan:before {
+  content: "\e760";
+}
+
+.dbsec-icon-jiangxu1:before {
+  content: "\e6cf";
+}
+
+.dbsec-icon-jiaose:before {
+  content: "\e6cd";
+}
+
+.dbsec-icon-gongdan:before {
+  content: "\e6cc";
+}
+
+.dbsec-icon-duofanganquanjisuan:before {
+  content: "\e73d";
+}
+
+.dbsec-icon-leixing-lianbangxuexi:before {
+  content: "\e6c8";
+}
+
+.dbsec-icon-leixing-yinsiqiujiao:before {
+  content: "\e6ca";
+}
+
+.dbsec-icon-nizongleixing:before {
+  content: "\e6db";
+}
+
+.dbsec-icon-DBSEC-01:before {
+  content: "\e6c6";
+}
+
+.dbsec-icon-yu-01:before {
+  content: "\e6c5";
+}
+
+.dbsec-icon-huo-01:before {
+  content: "\e6c4";
+}
+
+.dbsec-icon-shuangyinsurenzheng:before {
+  content: "\e6c3";
+}
+
+.dbsec-icon-zhankai11:before {
+  content: "\e6c7";
+}
+
+.dbsec-icon-shousuo:before {
+  content: "\e6c9";
+}
+
+.dbsec-icon-anquanshuiyinzipingtai-01:before {
+  content: "\e6b1";
+}
+
+.dbsec-icon-yingyongshenji:before {
+  content: "\e6b9";
+}
+
+.dbsec-icon-yunweipingtai:before {
+  content: "\e6ba";
+}
+
+.dbsec-icon-wenjianguanlipingtai:before {
+  content: "\e6bb";
+}
+
+.dbsec-icon-yunyingpingtai:before {
+  content: "\e6bc";
+}
+
+.dbsec-icon-peizhiguanlipingtai:before {
+  content: "\e6bd";
+}
+
+.dbsec-icon-shujuguanlipingtai:before {
+  content: "\e6be";
+}
+
+.dbsec-icon-anquanfanghupingtai:before {
+  content: "\e6bf";
+}
+
+.dbsec-icon-cunchujiamipingtai:before {
+  content: "\e6c0";
+}
+
+.dbsec-icon-jianceguanlipingtai:before {
+  content: "\e6c1";
+}
+
+.dbsec-icon-anquanfenfapingtai:before {
+  content: "\e6c2";
+}
+
+.dbsec-icon-weikaifang-xie-01:before {
+  content: "\e6b8";
+}
+
+.dbsec-icon-weihuzhong-xie-01:before {
+  content: "\e6b6";
+}
+
+.dbsec-icon-weishouquan-xie-01:before {
+  content: "\e6b5";
+}
+
+.dbsec-icon-weikaifang-01:before {
+  content: "\e6b4";
+}
+
+.dbsec-icon-weishouquan-01:before {
+  content: "\e6ae";
+}
+
+.dbsec-icon-weihuzhong-01:before {
+  content: "\e6b2";
+}
+
+.dbsec-icon-yunzhuji:before {
+  content: "\e6a6";
+}
+
+.dbsec-icon-dashujugongzuoliuyinqing:before {
+  content: "\e6a7";
+}
+
+.dbsec-icon-disaster:before {
+  content: "\e6a8";
+}
+
+.dbsec-icon-LPARfenqu:before {
+  content: "\e6ad";
+}
+
+.dbsec-icon-qiehuan:before {
+  content: "\e67e";
+}
+
+.dbsec-icon-yanzhengma:before {
+  content: "\e67c";
+}
+
+.dbsec-icon-kouling:before {
+  content: "\ee18";
+}
+
+.dbsec-icon-yuyanqiehuan-zhongwen:before {
+  content: "\e676";
+}
+
+.dbsec-icon-yuyanqiehuan-fan:before {
+  content: "\e673";
+}
+
+.dbsec-icon-yuyan:before {
+  content: "\f31e";
+}
+
+.dbsec-icon-mima:before {
+  content: "\e68e";
+}
+
+.dbsec-icon-zhanghao:before {
+  content: "\e671";
+}
+
+.dbsec-icon-fengxianbeifen:before {
+  content: "\e67d";
+}
+
+.dbsec-icon-fengxianguanli:before {
+  content: "\e6ff";
+}
+
+.dbsec-icon-jiekouguanli:before {
+  content: "\e672";
+}
+
+.dbsec-icon-dsp:before {
+  content: "\e666";
+}
+
+.dbsec-icon-user-gear:before {
+  content: "\e8c9";
+}
+
+.dbsec-icon-minus-square:before {
+  content: "\e625";
+}
+
+.dbsec-icon-plus-square:before {
+  content: "\e636";
+}
+
+.dbsec-icon-contrast:before {
+  content: "\e65d";
+}
+
+.dbsec-icon-zoom-out:before {
+  content: "\e65f";
+}
+
+.dbsec-icon-task:before {
+  content: "\e790";
+}
+
+.dbsec-icon-on:before {
+  content: "\e662";
+}
+
+.dbsec-icon-off:before {
+  content: "\e629";
+}
+
+.dbsec-icon-zoom-in:before {
+  content: "\e664";
+}
+
+.dbsec-icon-privilege:before {
+  content: "\e978";
+}
+
+.dbsec-icon-r:before {
+  content: "\e60f";
+}
+
+.dbsec-icon-mask-rule:before {
+  content: "\e624";
+}
+
+.dbsec-icon-backup:before {
+  content: "\ef0a";
+}
+
+.dbsec-icon-recover:before {
+  content: "\e8e7";
+}
+
+.dbsec-icon-zichanfengxian:before {
+  content: "\e623";
+}
+
+.dbsec-icon-shujukuyunwei:before {
+  content: "\e6110";
+}
+
+.dbsec-icon-shujukuyonghu:before {
+  content: "\5896";
+}
+
+.dbsec-icon-cluster:before {
+  content: "\e614";
+}
+
+.dbsec-icon-watermark:before {
+  content: "\e64e";
+}
+
+.dbsec-icon-location:before {
+  content: "\e686";
+}
+
+.dbsec-icon-allcheck:before {
+  content: "\e620";
+}
+
+.dbsec-icon-wwechat:before {
+  content: "\e6b0";
+}
+
+.dbsec-icon-check:before {
+  content: "\e646";
+}
+
+.dbsec-icon-issue:before {
+  content: "\e907";
+}
+
+.dbsec-icon-clock:before {
+  content: "\e65c";
+}
+
+.dbsec-icon-polygon-mouse:before {
+  content: "\e6a5";
+}
+
+.dbsec-icon-circle:before {
+  content: "\e6b7";
+}
+
+.dbsec-icon-mail-full:before {
+  content: "\e6a4";
+}
+
+.dbsec-icon-access:before {
+  content: "\e83b";
+}
+
+.dbsec-icon-monitor-pie:before {
+  content: "\e6a2";
+}
+
+.dbsec-icon-spanner:before {
+  content: "\e6a3";
+}
+
+.dbsec-icon-encrypt-db:before {
+  content: "\e6a9";
+}
+
+.dbsec-icon-database-pad:before {
+  content: "\ee6a";
+}
+
+.dbsec-icon-branch:before {
+  content: "\e6aa";
+}
+
+.dbsec-icon-paper-plus:before {
+  content: "\e6ab";
+}
+
+.dbsec-icon-seal:before {
+  content: "\e6ac";
+}
+
+.dbsec-icon-square-four:before {
+  content: "\eab0";
+}
+
+.dbsec-icon-hand-up:before {
+  content: "\e96d";
+}
+
+.dbsec-icon-network:before {
+  content: "\e6af";
+}
+
+.dbsec-icon-cycle:before {
+  content: "\e6b3";
+}
+
+.dbsec-icon-layer-multi:before {
+  content: "\e69f";
+}
+
+.dbsec-icon-count:before {
+  content: "\e6a1";
+}
+
+.dbsec-icon-monitor:before {
+  content: "\e706";
+}
+
+.dbsec-icon-restart:before {
+  content: "\e6cb";
+}
+
+.dbsec-icon-exe-file:before {
+  content: "\e612";
+}
+
+.dbsec-icon-drug:before {
+  content: "\e6a0";
+}
+
+.dbsec-icon-light:before {
+  content: "\e69d";
+}
+
+.dbsec-icon-light-on:before {
+  content: "\e69e";
+}
+
+.dbsec-icon-user:before {
+  content: "\e69b";
+}
+
+.dbsec-icon-file-pile:before {
+  content: "\e69c";
+}
+
+.dbsec-icon-ai-tool:before {
+  content: "\e69a";
+}
+
+.dbsec-icon-loading:before {
+  content: "\e697";
+}
+
+.dbsec-icon-bind:before {
+  content: "\e661";
+}
+
+.dbsec-icon-break:before {
+  content: "\e695";
+}
+
+.dbsec-icon-book:before {
+  content: "\e694";
+}
+
+.dbsec-icon-revoke:before {
+  content: "\e696";
+}
+
+.dbsec-icon-shield-bang:before {
+  content: "\e6da";
+}
+
+.dbsec-icon-arr-bottom:before {
+  content: "\e698";
+}
+
+.dbsec-icon-arr-top:before {
+  content: "\e699";
+}
+
+.dbsec-icon-arr-down:before {
+  content: "\e610";
+}
+
+.dbsec-icon-arr-up:before {
+  content: "\e693";
+}
+
+.dbsec-icon-clear:before {
+  content: "\e692";
+}
+
+.dbsec-icon-umbrella:before {
+  content: "\e691";
+}
+
+.dbsec-icon-filter:before {
+  content: "\e690";
+}
+
+.dbsec-icon-max:before {
+  content: "\e68f";
+}
+
+.dbsec-icon-help:before {
+  content: "\e68d";
+}
+
+.dbsec-icon-db-plus:before {
+  content: "\e68c";
+}
+
+.dbsec-icon-reset:before {
+  content: "\e68b";
+}
+
+.dbsec-icon-desktop:before {
+  content: "\e68a";
+}
+
+.dbsec-icon-brokenline:before {
+  content: "\e689";
+}
+
+.dbsec-icon-refresh:before {
+  content: "\e688";
+}
+
+.dbsec-icon-lock:before {
+  content: "\e687";
+}
+
+.dbsec-icon-cols-two:before {
+  content: "\e685";
+}
+
+.dbsec-icon-minus:before {
+  content: "\e684";
+}
+
+.dbsec-icon-plus:before {
+  content: "\e683";
+}
+
+.dbsec-icon-dots:before {
+  content: "\e682";
+}
+
+.dbsec-icon-back:before {
+  content: "\e681";
+}
+
+.dbsec-icon-monitor-gear:before {
+  content: "\e680";
+}
+
+.dbsec-icon-sql:before {
+  content: "\e67f";
+}
+
+.dbsec-icon-trash:before {
+  content: "\e67b";
+}
+
+.dbsec-icon-detail-log:before {
+  content: "\e67a";
+}
+
+.dbsec-icon-model:before {
+  content: "\e679";
+}
+
+.dbsec-icon-folder-open:before {
+  content: "\e678";
+}
+
+.dbsec-icon-eye-full:before {
+  content: "\e677";
+}
+
+.dbsec-icon-customize:before {
+  content: "\e675";
+}
+
+.dbsec-icon-circle-cross:before {
+  content: "\e674";
+}
+
+.dbsec-icon-upgrade:before {
+  content: "\e670";
+}
+
+.dbsec-icon-star-empty:before {
+  content: "\e66f";
+}
+
+.dbsec-icon-star:before {
+  content: "\e66e";
+}
+
+.dbsec-icon-testing:before {
+  content: "\e66d";
+}
+
+.dbsec-icon-search:before {
+  content: "\e66c";
+}
+
+.dbsec-icon-exchange:before {
+  content: "\e66b";
+}
+
+.dbsec-icon-shield-o:before {
+  content: "\e66a";
+}
+
+.dbsec-icon-msg-no:before {
+  content: "\e669";
+}
+
+.dbsec-icon-list:before {
+  content: "\e668";
+}
+
+.dbsec-icon-sms:before {
+  content: "\e667";
+}
+
+.dbsec-icon-hourglass:before {
+  content: "\e665";
+}
+
+.dbsec-icon-download-file:before {
+  content: "\e663";
+}
+
+.dbsec-icon-upload:before {
+  content: "\e660";
+}
+
+.dbsec-icon-check-square:before {
+  content: "\e65e";
+}
+
+.dbsec-icon-key-rule:before {
+  content: "\e655";
+}
+
+.dbsec-icon-access-rule:before {
+  content: "\e656";
+}
+
+.dbsec-icon-spanner-rule:before {
+  content: "\e657";
+}
+
+.dbsec-icon-bug-r:before {
+  content: "\e658";
+}
+
+.dbsec-icon-sort-save:before {
+  content: "\e659";
+}
+
+.dbsec-icon-rule:before {
+  content: "\e65a";
+}
+
+.dbsec-icon-syringe-rule:before {
+  content: "\e65b";
+}
+
+.dbsec-icon-shield:before {
+  content: "\e654";
+}
+
+.dbsec-icon-check-multi:before {
+  content: "\e653";
+}
+
+.dbsec-icon-save:before {
+  content: "\e652";
+}
+
+.dbsec-icon-trace:before {
+  content: "\e651";
+}
+
+.dbsec-icon-key-gear:before {
+  content: "\e650";
+}
+
+.dbsec-icon-random:before {
+  content: "\e64f";
+}
+
+.dbsec-icon-folder-plus:before {
+  content: "\e64d";
+}
+
+.dbsec-icon-bell:before {
+  content: "\e64c";
+}
+
+.dbsec-icon-user-circle:before {
+  content: "\e64b";
+}
+
+.dbsec-icon-switch:before {
+  content: "\e64a";
+}
+
+.dbsec-icon-flag:before {
+  content: "\e649";
+}
+
+.dbsec-icon-unlink:before {
+  content: "\e648";
+}
+
+.dbsec-icon-link:before {
+  content: "\e647";
+}
+
+.dbsec-icon-arr-down-double:before {
+  content: "\e645";
+}
+
+.dbsec-icon-arr-up-double:before {
+  content: "\e644";
+}
+
+.dbsec-icon-arr-right-double:before {
+  content: "\e643";
+}
+
+.dbsec-icon-arr-left-double:before {
+  content: "\e642";
+}
+
+.dbsec-icon-chevron-down:before {
+  content: "\e641";
+}
+
+.dbsec-icon-chevron-up:before {
+  content: "\e640";
+}
+
+.dbsec-icon-arr-right:before {
+  content: "\e63f";
+}
+
+.dbsec-icon-arr-left:before {
+  content: "\e63e";
+}
+
+.dbsec-icon-laptop:before {
+  content: "\e63d";
+}
+
+.dbsec-icon-circle-bang:before {
+  content: "\e63c";
+}
+
+.dbsec-icon-columon-set:before {
+  content: "\e63b";
+}
+
+.dbsec-icon-sub-square:before {
+  content: "\e63a";
+}
+
+.dbsec-icon-add-ip:before {
+  content: "\e639";
+}
+
+.dbsec-icon-exit:before {
+  content: "\e638";
+}
+
+.dbsec-icon-node:before {
+  content: "\e637";
+}
+
+.dbsec-icon-circle-check:before {
+  content: "\e635";
+}
+
+.dbsec-icon-copy:before {
+  content: "\e634";
+}
+
+.dbsec-icon-database:before {
+  content: "\e633";
+}
+
+.dbsec-icon-circle-plus:before {
+  content: "\e632";
+}
+
+.dbsec-icon-db-scan:before {
+  content: "\e631";
+}
+
+.dbsec-icon-text:before {
+  content: "\e630";
+}
+
+.dbsec-icon-eye:before {
+  content: "\e62f";
+}
+
+.dbsec-icon-eye-close:before {
+  content: "\e62e";
+}
+
+.dbsec-icon-history:before {
+  content: "\e62d";
+}
+
+.dbsec-icon-ip:before {
+  content: "\e62c";
+}
+
+.dbsec-icon-config:before {
+  content: "\e62b";
+}
+
+.dbsec-icon-unlock:before {
+  content: "\e62a";
+}
+
+.dbsec-icon-warning:before {
+  content: "\e628";
+}
+
+.dbsec-icon-time:before {
+  content: "\e627";
+}
+
+.dbsec-icon-detail:before {
+  content: "\e626";
+}
+
+.dbsec-icon-session:before {
+  content: "\e622";
+}
+
+.dbsec-icon-forbidden:before {
+  content: "\e621";
+}
+
+.dbsec-icon-report:before {
+  content: "\e61f";
+}
+
+.dbsec-icon-extend:before {
+  content: "\e61e";
+}
+
+.dbsec-icon-chart-warning:before {
+  content: "\e61d";
+}
+
+.dbsec-icon-download:before {
+  content: "\e61c";
+}
+
+.dbsec-icon-circle-ellipsis:before {
+  content: "\e61b";
+}
+
+.dbsec-icon-forbidden-full:before {
+  content: "\e61a";
+}
+
+.dbsec-icon-chart-bars:before {
+  content: "\e619";
+}
+
+.dbsec-icon-mail:before {
+  content: "\e618";
+}
+
+.dbsec-icon-cross:before {
+  content: "\e617";
+}
+
+.dbsec-icon-shoot:before {
+  content: "\e616";
+}
+
+.dbsec-icon-edit:before {
+  content: "\e615";
+}
+
+.dbsec-icon-stick:before {
+  content: "\e613";
+}
+
+.dbsec-icon-group:before {
+  content: "\e60e";
+}
+
+.dbsec-icon-fire:before {
+  content: "\e60d";
+}
+
+.dbsec-icon-calendar:before {
+  content: "\e60c";
+}
+
+.dbsec-icon-folder:before {
+  content: "\e60b";
+}
+
+.dbsec-icon-poweroff:before {
+  content: "\e60a";
+}
+
+.dbsec-icon-pause:before {
+  content: "\e609";
+}
+
+.dbsec-icon-play:before {
+  content: "\e608";
+}
+
+.dbsec-icon-stop:before {
+  content: "\e607";
+}
+
+.dbsec-icon-squares:before {
+  content: "\e606";
+}
+
+.dbsec-icon-bars:before {
+  content: "\e605";
+}
+
+.dbsec-icon-config-file:before {
+  content: "\e604";
+}
+
+.dbsec-icon-gear:before {
+  content: "\e603";
+}
+
+.dbsec-icon-meter:before {
+  content: "\e602";
+}
+
+.dbsec-icon-sort-down:before {
+  content: "\e601";
+}
+
+.dbsec-icon-home:before {
+  content: "\e600";
+}

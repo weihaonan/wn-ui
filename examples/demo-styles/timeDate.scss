@@ -1,0 +1,23 @@
+.demo-block.demo-timeDate {
+  .el-row {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .source > div{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .block{
+    padding: 30px 0;
+    text-align: center;
+    border-right: 1px solid #eff2f6;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

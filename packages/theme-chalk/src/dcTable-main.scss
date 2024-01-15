@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@import "common/var";
+@import "mixins/mixins";
+@import "mixins/utils";
+
+@include b(extable-main) {
+  .el-extable__content {
+    flex: 1;
+    height:100%;
+    flex-basis: auto;
+    overflow:hidden;
+    margin-bottom:5px;
+    // padding:0px 5px 10px;
+  }
+  .el-table__fixed::before,
+  .el-table__fixed-right::before {
+    background-color: transparent !important;
+  }
+  .el-table {
+    // 表格框高度
+    .cell {
+      line-height: 31px;
+      font-size:14px;
+    }
+    /*  将el-table的去掉竖线 */
+    &.removeVertical{
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+      th,td{
+        border-right: 1px solid transparent !important;
+      }
+      &::after,&::before{
+        background-color: transparent !important;
+      }
+    }
+  }
+  /* // 将el-table的展开图标替换为其他图标 */
+  .el-table .el-table__expand-icon {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .el-table .el-icon-arrow-right:before {
+    content: '\e6d9';
+  }
+
+  .el-table.defaultExpandIcon .el-icon-arrow-right:before {
+    content: '\e6e0';
+  }
+
+  .el-table .el-table__expand-icon--expanded .el-icon-arrow-right:before {
+    content: '\e6d8';
+  }
+
+  .el-table.defaultExpandIcon .el-table__expand-icon--expanded {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .el-table.defaultExpandIcon
+    .el-table__expand-icon--expanded
+    .el-icon-arrow-right:before {
+      content: '\e6e0';
+    }
+  /* // 将el-table的展开图标替换为其他图标 */
+
+  /* // 将el-table的选中框数据排序 */
+  .el-table__row {
+    counter-increment: myCounter;
+    &:not(:hover) {
+      .el-table-column--selection {
+        label {
+          &:not(.is-checked) {
+            .el-checkbox__input {
+              visibility: hidden;
+            }
+            &:before {
+              content: counter(myCounter);
+              color: #606266;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              text-align: center;
+              z-index: 999;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* // 将el-table的选中框数据排序 */
+
+  .hideRowNumber .el-table__row {
+    counter-increment: none !important;
+
+    .el-table-column--selection {
+      label {
+        .el-checkbox__input {
+          visibility: unset !important;
+        }
+
+        &:before {
+          content: none !important;
+        }
+      }
+    }
+  }
+  .el-table th.sortable-chosen {
+    background-color: #ccc;
+  }
+  .checkT {
+    .el-checkbox__input.is-checked + .el-checkbox__label {
+      color: inherit !important;
+    }
+  }
+  .textNum {
+    color: var(--main-color);
+    padding: 0px 3px;
+  }
+  // h2{counter-increment:myCounter;}
+
+  // h2:before{content:counter(myCounter);}
+  // 多选
+  .checkAll {
+    width: 30px;
+    height: 31px;
+    position: absolute;
+    left: 10px;
+    z-index: 999;
+  }
+  // 多选
+  .el-table th {
+    // background-color: #F0F0F0;
+  }
+  .el-table--mini td {
+    padding: 2px 0px;
+  }
+  .el-table th.is-right .cell {
+    padding-right: 16px;
+  }
+  .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color:  $--color-primary;
+    color: #ffffff;
+  }
+  .icon-xiajiantou_huaban:hover {
+    color:  $--color-primary !important;
+  }
+  .el-table--scrollable-y .el-table__fixed-right {
+    // 固定列滚动条
+    right: 8px !important;
+    bottom: 0px !important;
+    height: calc(100%) !important;
+    // .el-table__fixed-body-wrapper {
+    //   height: calc(100% - 36px) !important
+
+    // }
+  }
+  .el-table__body-wrapper .is-scrolling-none ~ .el-table__fixed-right {
+    height: 100% !important;
+    bottom: 0 !important;
+    // height: calc(100% - 10px) !important;
+  }
+  .el-table--scrollable-y:not(.el-table--scrollable-x) .el-table__fixed-right,
+  .el-table__fixed {
+    height: calc(100% - 10px) !important;
+    bottom: 0 !important;
+  }
+  .el-table th.dbsec-table-header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #dedede;
+    .cell {
+      color: #555555;
+    }
+  }
+  .el-table th.is-leaf,
+  .el-table td {
+    border-bottom: 1px solid #ebebeb;
+  }
+  .el-table--border th,
+  .el-table--border td {
+    border-right: 1px solid #dedede;
+  }
+}

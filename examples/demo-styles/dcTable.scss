@@ -1,0 +1,36 @@
+
+.demo-block.demo-dcTable {
+  .el-table__body-wrapper {
+    overflow: hidden;
+
+    &:hover {
+      overflow: auto;
+    }
+
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 10px;
+      background: transparent;
+      /*可以设置轨道颜色*/
+      padding-right: 2px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+      box-shadow: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: transparent;
+      border-radius: 10px;
+      box-shadow: none;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+      background: #dddee0;
+    }
+  }
+  .el-footer{
+    background-color: #fff;
+  }
+}

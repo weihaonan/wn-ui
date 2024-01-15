@@ -1,0 +1,10 @@
+@import "mixins/mixins";
+@import "common/var";
+@import "button";
+@import "./popper";
+
+@include b(dcDropdown) {
+  .dbsec-dropdown-link {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,66 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(dcCard) {
+  background-color: #fff;
+  &.el-dcCard--border {
+    border: 1px solid #f2f2f2;
+  }
+  &.el-dcCard--full {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .el-dcCard-header {
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+    box-sizing: border-box;
+    &::before {
+      position: absolute;
+      content: '';
+      width:12px;
+      height:18px;
+      border-left: 3px solid $--color-primary;
+    }
+
+    .el-dcCard__title {
+      float: left;
+      height: 100%;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      min-height: 32px;
+      margin-left:15px;
+    }
+
+    .el-dcCard__extra {
+      float: right;
+      .el-button + .el-button {
+        margin-left:10px;
+      }
+    }
+  }
+  .el-dcCard-content {
+    padding: 10px;
+    // height: calc(100% - 50px);
+  }
+  .el-dcCard-content-all {
+    height: calc(100%);
+    padding: 10px;
+  }
+  @include when(always-shadow) {
+    box-shadow: $--box-shadow-light;
+  }
+  @include when(hover-shadow) {
+    &:hover,
+    &:focus {
+      box-shadow: $--box-shadow-light;
+    }
+  }
+}

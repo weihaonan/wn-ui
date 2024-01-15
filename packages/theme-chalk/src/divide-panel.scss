@@ -1,0 +1,52 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(divide-panel) {
+  .el-divide-panel-header {
+    // position: relative;
+    // display: flex;
+    // align-items: center;
+    // background-color: #fafafa;
+    // padding: 5px 15px 5px 15px;
+    // height: 40px;
+    // box-sizing: border-box;
+    font-weight: 700;
+    border-width: 0px 0px 0px 3px;
+    border-style: solid;
+    border-color: #f08300;
+    padding-left: 15px;
+    background: #fafafa;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+    color: #333;
+    display:flex;
+    justify-content: space-around;
+    .title {
+      flex:1;
+    }
+    // &:before {
+    //   position: absolute;
+    //   content: '';
+    //   left: 0;
+    //   top: 0;
+    //   width: 3px;
+    //   height: 100%;
+    //   background-color: $--color-primary;
+    // }
+    .el-divide-panel__title {
+      flex-grow: 1;
+      color: #333;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .el-divide-panel__extra {
+      margin-right:5px;
+    }
+  }
+  .el-divide-panel-content {
+    padding:10px 20px;
+    font-size:14px;
+  }
+}
