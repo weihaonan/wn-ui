@@ -37,7 +37,7 @@ exports.alias = {
   packages: path.resolve(__dirname, '../packages'),
   examples: path.resolve(__dirname, '../examples'),
   'element-ui': path.resolve(__dirname, '../'),
-  'dbsec-ui': path.resolve(__dirname, '../')
+  'wn-ui': path.resolve(__dirname, '../')
 };
 
 exports.vue = {

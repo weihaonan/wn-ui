@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ElMain from 'dbsec-ui/packages/main';
+import ElMain from 'wn-ui/packages/main';
 export default {
   name: 'dbsec-main',
   components: {

@@ -122,10 +122,10 @@
 <script>
 /* eslint-disable*/
 import { debounce, isNumber, isArray, isObject } from 'lodash'
-import DcForm from 'dbsec-ui/packages/dcForm';
-import Locale from 'dbsec-ui/src/mixins/locale';
+import DcForm from 'wn-ui/packages/dcForm';
+import Locale from 'wn-ui/src/mixins/locale';
 import ElPopover from 'element-ui/packages/popover';
-import DcButton from 'dbsec-ui/packages/dcButton';
+import DcButton from 'wn-ui/packages/dcButton';
 
 export default {
   mixins:[Locale],

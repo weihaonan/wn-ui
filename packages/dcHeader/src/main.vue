@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ElHeader from 'dbsec-ui/packages/header';
+import ElHeader from 'wn-ui/packages/header';
 export default {
   name: 'dbsec-header',
 

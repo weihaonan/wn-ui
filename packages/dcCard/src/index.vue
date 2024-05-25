@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import ElEmpty from 'dbsec-ui/packages/empty';
+import ElEmpty from 'wn-ui/packages/empty';
 import {sortBy} from 'lodash';
 export default {
   name: 'dbsec-card',

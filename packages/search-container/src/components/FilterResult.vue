@@ -64,7 +64,7 @@
 
 <script>
 import { isArray, isUndefined } from 'lodash';
-import Locale from 'dbsec-ui/src/mixins/locale';
+import Locale from 'wn-ui/src/mixins/locale';
 import ElLink from 'element-ui/packages/link';
 
 export default {

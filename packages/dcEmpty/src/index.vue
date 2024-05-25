@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import ElEmpty from 'dbsec-ui/packages/empty';
+import ElEmpty from 'wn-ui/packages/empty';
 export default {
   name: 'dbsec-empty',
   components: {

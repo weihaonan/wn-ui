@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ElContainer from 'dbsec-ui/packages/container';
+import ElContainer from 'wn-ui/packages/container';
 export default {
   name: 'dbsec-container',
 

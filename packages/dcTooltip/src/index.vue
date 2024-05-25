@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import ElTooltip from 'dbsec-ui/packages/tooltip';
+import ElTooltip from 'wn-ui/packages/tooltip';
 
 export default {
   name: 'dbsec-tooltip',

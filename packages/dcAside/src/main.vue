@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ElAside from 'dbsec-ui/packages/aside';
+import ElAside from 'wn-ui/packages/aside';
 export default {
   name: 'dbsec-aside',
 

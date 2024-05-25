@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ElCol from 'dbsec-ui/packages/col';
+import ElCol from 'wn-ui/packages/col';
 
 export default {
   name: 'dbsec-col',

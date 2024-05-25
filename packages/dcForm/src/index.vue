@@ -429,20 +429,20 @@
 import Vue from 'vue';
 import { filter, isArray, isFunction, isUndefined, isEmpty } from 'lodash';
 // import pageSelect from './components/pageSelect.vue';
-import Pagination from 'dbsec-ui/packages/dcPagination';
+import Pagination from 'wn-ui/packages/dcPagination';
 // import Cookies from 'js-cookie';
-import ElInput from 'dbsec-ui/packages/input';
-import ElSelect from 'dbsec-ui/packages/select';
-import ElOption from 'dbsec-ui/packages/option';
-import ElRadio from 'dbsec-ui/packages/radio';
-import ElRadioGroup from 'dbsec-ui/packages/radio-group';
-import ElRadioButton from 'dbsec-ui/packages/radio-button';
-import ElSwitch from 'dbsec-ui/packages/switch';
-import ElCheckbox from 'dbsec-ui/packages/checkbox';
-import ElCheckboxGroup from 'dbsec-ui/packages/checkbox-group';
-import ElForm from 'dbsec-ui/packages/form';
-import ElFormItem from 'dbsec-ui/packages/form-item';
-import Locale from 'dbsec-ui/src/mixins/locale';
+import ElInput from 'wn-ui/packages/input';
+import ElSelect from 'wn-ui/packages/select';
+import ElOption from 'wn-ui/packages/option';
+import ElRadio from 'wn-ui/packages/radio';
+import ElRadioGroup from 'wn-ui/packages/radio-group';
+import ElRadioButton from 'wn-ui/packages/radio-button';
+import ElSwitch from 'wn-ui/packages/switch';
+import ElCheckbox from 'wn-ui/packages/checkbox';
+import ElCheckboxGroup from 'wn-ui/packages/checkbox-group';
+import ElForm from 'wn-ui/packages/form';
+import ElFormItem from 'wn-ui/packages/form-item';
+import Locale from 'wn-ui/src/mixins/locale';
 /**
  * dedault slot
  * startbtn字段：前缀：按钮等组件

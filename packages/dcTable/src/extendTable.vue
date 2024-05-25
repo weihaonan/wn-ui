@@ -79,7 +79,7 @@ import { sortBy, has } from 'lodash';
 import Table from './components/table.vue';
 import TriggerCol from './components/triggColumn.vue';
 import ColumnOper from './components/ColumnOper.vue';
-import ElPopover from 'dbsec-ui/packages/popover';
+import ElPopover from 'wn-ui/packages/popover';
 
 /**  继承了el-table与tableServe所有的属性配置，可自行配置  */
 export default {

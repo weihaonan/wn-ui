@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import ElTabPane from 'dbsec-ui/packages/tab-pane';
+import ElTabPane from 'wn-ui/packages/tab-pane';
 
 export default {
   name: 'dbsec-tab-pane',

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import ElPopconfirm from 'dbsec-ui/packages/popconfirm';
+import ElPopconfirm from 'wn-ui/packages/popconfirm';
 
 export default {
   name: 'dbsec-popconfirm',

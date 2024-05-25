@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ElFooter from 'dbsec-ui/packages/footer';
+import ElFooter from 'wn-ui/packages/footer';
 export default {
   name: 'dbsec-footer',
 

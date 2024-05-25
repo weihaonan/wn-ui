@@ -30,7 +30,7 @@
 
 <script>
 import ElCollapseItem from 'element-ui/packages/collapse-item';
-import DividePanel from 'dbsec-ui/packages/divide-panel';
+import DividePanel from 'wn-ui/packages/divide-panel';
 export default {
   components: {
     ElCollapseItem,

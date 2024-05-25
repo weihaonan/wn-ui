@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ElRow from 'dbsec-ui/packages/row';
+import ElRow from 'wn-ui/packages/row';
 export default {
   name: 'dbsec-row',
   components: {

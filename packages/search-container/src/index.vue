@@ -149,7 +149,7 @@ import { debounce } from 'lodash';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Filtering from './components/Filtering.vue';
 import FilterResult from './components/FilterResult.vue';
-import Locale from 'dbsec-ui/src/mixins/locale';
+import Locale from 'wn-ui/src/mixins/locale';
 import ElContainer from 'element-ui/packages/container';
 import ElMain from 'element-ui/packages/main';
 import ElDropdown from 'element-ui/packages/dropdown';

@@ -181,15 +181,15 @@ import {
 import Sortable from 'sortablejs';
 import {getNumberText} from '../../../../src/utils/dc-util';
 import Locale from '../../../../src/mixins/locale';
-import ElTable from 'dbsec-ui/packages/table';
-import ElTableColumn from 'dbsec-ui/packages/table-column';
-import ElContainer from 'dbsec-ui/packages/container';
-import ElMain from 'dbsec-ui/packages/main';
-import ElPopover from 'dbsec-ui/packages/popover';
-import ElFooter from 'dbsec-ui/packages/footer';
-import ElInput from 'dbsec-ui/packages/input';
-import ElPagination from 'dbsec-ui/packages/pagination';
-import ElEmpty from 'dbsec-ui/packages/empty';
+import ElTable from 'wn-ui/packages/table';
+import ElTableColumn from 'wn-ui/packages/table-column';
+import ElContainer from 'wn-ui/packages/container';
+import ElMain from 'wn-ui/packages/main';
+import ElPopover from 'wn-ui/packages/popover';
+import ElFooter from 'wn-ui/packages/footer';
+import ElInput from 'wn-ui/packages/input';
+import ElPagination from 'wn-ui/packages/pagination';
+import ElEmpty from 'wn-ui/packages/empty';
 
 // import '../../../assets/fonts/iconfont'
 // import '../../../assets/fonts/iconfont.css'

@@ -40,8 +40,8 @@
 </template>
 <script>
 import Locale from 'element-ui/src/mixins/locale';
-import ElRow from 'dbsec-ui/packages/row';
-import ElCol from 'dbsec-ui/packages/col';
+import ElRow from 'wn-ui/packages/row';
+import ElCol from 'wn-ui/packages/col';
 
 export default {
   name: 'dbsec-small-card',

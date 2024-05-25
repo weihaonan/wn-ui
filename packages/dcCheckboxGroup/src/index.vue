@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ElCheckboxGroup from 'dbsec-ui/packages/checkbox-group';
+import ElCheckboxGroup from 'wn-ui/packages/checkbox-group';
 export default {
   name: 'dbsec-checkbox-group',
   componentName: 'dbsec-checkbox-group',

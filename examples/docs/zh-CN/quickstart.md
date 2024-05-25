@@ -2,9 +2,9 @@
 
 本节将介绍如何在项目中使用 Element。
 
-### 引入 dbsec-ui
+### 引入 wn-ui
 
-你可以引入整个 dbsec-ui，或是根据需要仅引入部分组件。我们先介绍如何引入完整的 dbsec-ui。
+你可以引入整个 wn-ui，或是根据需要仅引入部分组件。我们先介绍如何引入完整的 wn-ui。
 
 #### 完整引入
 
@@ -12,8 +12,8 @@
 
 ```javascript
 import Vue from 'vue';
-import DbsecUI from 'dbsec-ui';
-import 'dbsec-ui/lib/theme-chalk/index.css';
+import DbsecUI from 'wn-ui';
+import 'wn-ui/lib/theme-chalk/index.css';
 import App from './App.vue';
 
 Vue.use(DbsecUI);
@@ -24,7 +24,7 @@ new Vue({
 });
 ```
 
-以上代码便完成了 dbsec-ui 的引入。需要注意的是，样式文件需要单独引入。
+以上代码便完成了 wn-ui 的引入。需要注意的是，样式文件需要单独引入。
 
 #### 按需引入
 
@@ -57,7 +57,7 @@ npm install babel-plugin-component -D
 
 ```javascript
 import Vue from 'vue';
-import { Button, Select } from 'dbsec-ui';
+import { Button, Select } from 'wn-ui';
 import App from './App.vue';
 
 Vue.component(Button.name, Button);
@@ -155,7 +155,7 @@ import {
   MessageBox,
   Message,
   Notification
-} from 'dbsec-ui';
+} from 'wn-ui';
 
 Vue.use(Pagination);
 Vue.use(Dialog);
@@ -250,7 +250,7 @@ Vue.prototype.$message = Message;
 
 ```js
 import Vue from 'vue';
-import Element from 'dbsec-ui';
+import Element from 'wn-ui';
 Vue.use(Element, { size: 'small', zIndex: 3000 });
 ```
 
@@ -258,7 +258,7 @@ Vue.use(Element, { size: 'small', zIndex: 3000 });
 
 ```js
 import Vue from 'vue';
-import { Button } from 'dbsec-ui';
+import { Button } from 'wn-ui';
 
 Vue.prototype.$ELEMENT = { size: 'small', zIndex: 3000 };
 Vue.use(Button);

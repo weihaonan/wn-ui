@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ElTag from 'dbsec-ui/packages/tag';
+import ElTag from 'wn-ui/packages/tag';
 
 export default {
   name: 'dbsec-tag',

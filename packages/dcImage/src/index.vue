@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ElImage from 'dbsec-ui/packages/image';
+import ElImage from 'wn-ui/packages/image';
 export default {
   name: 'dbsec-image',
   data() {

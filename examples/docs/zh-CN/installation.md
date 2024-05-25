@@ -8,7 +8,7 @@
 /** 将npm源切到私服 */ 
 npm config set registry http://10.10.80.4:8081/repository/ndas-group/
 
-npm i dbsec-ui -S
+npm i wn-ui -S
 ```
 
 <!-- 

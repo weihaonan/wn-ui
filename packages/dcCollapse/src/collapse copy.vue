@@ -52,7 +52,7 @@
 <script>
 import ElCollapse from 'element-ui/packages/collapse';
 import ElCollapseItem from 'element-ui/packages/collapse-item';
-import DividePanel from 'dbsec-ui/packages/divide-panel';
+import DividePanel from 'wn-ui/packages/divide-panel';
 
 export default {
   name: 'dbsec-collapse',

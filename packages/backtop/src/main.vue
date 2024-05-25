@@ -17,7 +17,7 @@
 
 <script>
 import throttle from 'throttle-debounce/throttle';
-import ElIcon from 'dbsec-ui/packages/icon';
+import ElIcon from 'wn-ui/packages/icon';
 
 const cubic = value => Math.pow(value, 3);
 const easeInOutCubic = value => value < 0.5
